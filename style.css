@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #070724;
+}
+.font-antonio {
+	font-family: "Antonio", sans-serif;
+}
+.font-spartan {
+	font-family: "League Spartan", sans-serif;
+}
+.Menu-1 {
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: space-between;
+	margin: 8px;
+}
+h1 {
+	size: 28px;
+}
+hr {
+	width: 100%;
+	color: #ffffff;
+}
+.Menu-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 9px;
+	margin: 10px;
+	color: #38384f;
+	font-weight: 700;
+	font-family: "League Spartan", sans-serif;
+}
+.over:hover {
+	text-decoration: underline;
+	text-decoration-color: #6d2ed5;
+	color: white;
+}
+.Stru:hover {
+	text-decoration: underline;
+	text-decoration-color: #6d2ed5;
+	color: white;
+}
+.Sur:hover {
+	text-decoration: underline;
+	text-decoration-color: #6d2ed5;
+	color: white;
+}
+.Terre {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+.Menu-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+}
+h3 {
+	font-size: 40px;
+	color: white;
+}
+.Mot {
+	size: 11px;
+	color: white;
+	justify-items: center;
+	align-items: center;
+}
+.Mot-1 {
+	color: #38384f;
+}
+a {
+	color: #38384f;
+}
+.Menu-4 {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	font-family: "League Spartan", sans-serif;
+}
+h4 {
+	font-size: 8px;
+	text-align: left;
+	color: #38384f;
+	margin: 11px;
+}
+.Nom {
+	font-size: 20px;
+	text-align: right;
+	color: white;
+	margin: 11px;
+}
+.ROTATION-TIME {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #38384f;
+	margin: 10px;
+}
+.REVOLUTION-TIME {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #38384f;
+	margin: 10px;
+}
+.radius {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #38384f;
+	margin: 10px;
+}
+.AVERAGE-TEMP {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #38384f;
+	margin: 10px;
+}
